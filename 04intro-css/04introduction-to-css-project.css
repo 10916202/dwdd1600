@@ -1,0 +1,60 @@
+body{
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+}
+/* main header styling*/
+header{
+	background-color: #b6b4de;
+	padding: 1rem;
+	border-style: ridge;
+	border-radius: 2px;
+}
+/* h1 header styling*/
+header h1{
+	margin: 0;
+	color: #35586f;
+	font-weight: 700;
+}
+
+/* h2 header styling*/
+header h2{
+	margin: 0;
+	color: red;
+	letter-spacing: .5px;
+}
+/* paragraph styling*/
+header p{
+	margin: 0;
+	color: red;
+	letter-spacing: .5px;
+}
+/* navigation styling*/
+nav{
+	background-color: #946ade;
+}
+/* navigation unordered list styling*/
+nav ul{
+  	list-style-type: none;
+	padding: 0 2vw;
+	margin: 1px;
+	display: flex;
+	font-size: 24px;
+}
+nav a {
+	padding: 0.9rem 2rem;
+	text-decoration: none;
+	color: #1f3442;
+	font-weight: 500;
+	display: block;
+	padding: .83rem 2rem;
+}
+nav li.active a{
+	background-color: #BA6ADE;
+	color: #35586f;
+}
+/* psuedo hover styling*/
+nav a:hover {
+  background-color: #7b58b8;
+}
