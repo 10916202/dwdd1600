@@ -3,6 +3,7 @@ body{
 	font-size: 20px;
 	font-weight: 300;
 	margin: 0;
+	background-color:#c2c1d2;
 }
 /* main header styling*/
 header{
@@ -57,4 +58,21 @@ nav li.active a{
 /* psuedo hover styling*/
 nav a:hover {
   background-color: #7b58b8;
+}
+ul.history li {
+list-style-type:square;
+}
+div.mainborder {
+border-style:groove;
+border-width:3px;
+border-color:purple;
+}
+img {
+width:200px;
+}
+div.historyimage {
+display:flex;
+}
+img:hover {
+filter: saturate(0%) opacity(77.3%);
 }
